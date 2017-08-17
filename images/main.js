@@ -4,10 +4,10 @@ var $body = $('body');
 var setting = {
 
 	activeCate: true,    //현재카테고리위치 표기 
-	autoLink: true,      //댓글,방명록 자동링크
+	autoLink: false,      //댓글,방명록 자동링크
 	extendThumb: false,  //썸네일 확장
 	newIcon: true,    	 //new 아이콘 변경여부
-	preloader: false,    //프리로드 활성화
+	preloader: true,    //프리로드 활성화
 	searchTag: true,  	 //검색시에 우선순위태그를 보여줌
 	searchTagCount: 8,   //보여줄 우선순위태그 갯수
 	tbHide: true,        //트랙백숨기기
